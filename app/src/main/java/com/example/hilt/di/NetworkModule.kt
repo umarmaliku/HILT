@@ -14,6 +14,8 @@ object NetworkModule {
 
     @Singleton
     val retrofitClient = RetrofitClient()
+    
+    
 
     @Provides
     @Singleton
