@@ -9,14 +9,14 @@
         android:id="@+id/photoFragment"
         android:name="com.example.hilt.ui.fragments.postphotofragment.PhotoFragment"
         android:label="fragment_photo"
-        tools:layout="@layout/fragment_photo" >
+        tools:layout="@layout/fragment_photo">
 
     </fragment>
     <fragment
         android:id="@+id/getPhotoFragment"
         android:name="com.example.hilt.ui.fragments.getphotofragment.GetPhotoFragment"
         android:label="fragment_get_photo"
-        tools:layout="@layout/fragment_get_photo" >
+        tools:layout="@layout/fragment_get_photo">
         <action
             android:id="@+id/action_getPhotoFragment_to_photoFragment"
             app:destination="@id/photoFragment" />

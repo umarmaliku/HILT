@@ -14,7 +14,7 @@
         app:cardCornerRadius="20dp">
 
         <ImageView
-            android:id="@+id/im_cherepters"
+            android:id="@+id/im_view"
             android:layout_width="180dp"
             android:layout_height="180dp" />
 
