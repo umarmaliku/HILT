@@ -15,7 +15,7 @@ class RetrofitClient {
         .writeTimeout(30, TimeUnit.SECONDS)
         .build()
 
-     val retrofit: Retrofit = Retrofit.Builder()
+     private val retrofit: Retrofit = Retrofit.Builder()
         .baseUrl("https://jsonplaceholder.typicode.com/")
         .addConverterFactory(GsonConverterFactory.create())
         .client(okHttpClient)

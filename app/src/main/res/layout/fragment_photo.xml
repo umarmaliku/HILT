@@ -3,46 +3,92 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/img"
     android:gravity="center"
     android:orientation="vertical"
     tools:context=".ui.fragments.postphotofragment.PhotoFragment">
 
-    <EditText
-        android:id="@+id/ed_id"
-        android:layout_width="300dp"
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:hint="Введите id"
-        android:textColor="@color/black"
-        android:textColorHint="@color/black"/>
+        android:backgroundTint="#F3E082"
+        app:cardCornerRadius="10dp"
+        android:layout_margin="5dp">
+
+        <EditText
+            android:id="@+id/ed_id"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:hint="Введите id"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#F3E082"
+        app:cardCornerRadius="10dp"
+        android:layout_margin="5dp">
 
     <EditText
         android:id="@+id/ed_title"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:hint="Введите title"
+        android:textStyle="bold"
         android:textColor="@color/black"
-        android:textColorHint="@color/black"/>
+        android:textColorHint="@color/black" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#F3E082"
+        app:cardCornerRadius="10dp"
+        android:layout_margin="5dp">
 
     <EditText
         android:id="@+id/ed_url"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:hint="Введите url"
+        android:textStyle="bold"
         android:textColor="@color/black"
-        android:textColorHint="@color/black"/>
+        android:textColorHint="@color/black" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#F3E082"
+        app:cardCornerRadius="10dp"
+        android:layout_margin="5dp">
 
     <EditText
         android:id="@+id/ed_thumbnailUrl"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:hint="Введите thumbnailUrl"
+        android:textStyle="bold"
         android:textColor="@color/black"
-        android:textColorHint="@color/black"/>
+        android:textColorHint="@color/black" />
 
-    <Button
+    </androidx.cardview.widget.CardView>
+
+    <com.google.android.material.button.MaterialButton
         android:id="@+id/btn_send"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="send"/>
+        app:cornerRadius="10dp"
+        android:text="send"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:backgroundTint="#F3E082"/>
 
 </LinearLayout>

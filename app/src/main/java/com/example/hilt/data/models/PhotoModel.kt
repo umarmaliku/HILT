@@ -1,4 +1,4 @@
-package com.example.hilt.data
+package com.example.hilt.data.models
 
 import com.google.gson.annotations.SerializedName
 
