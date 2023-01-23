@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".ui.fragments.postphotofragment.PhotoFragment">
+
+    <EditText
+        android:id="@+id/ed_id"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Введите id"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"/>
+
+    <EditText
+        android:id="@+id/ed_title"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Введите title"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"/>
+
+    <EditText
+        android:id="@+id/ed_url"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Введите url"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"/>
+
+    <EditText
+        android:id="@+id/ed_thumbnailUrl"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Введите thumbnailUrl"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"/>
+
+    <Button
+        android:id="@+id/btn_send"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="send"/>
+
+</LinearLayout>
